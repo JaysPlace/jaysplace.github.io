@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    position: relative;
+    left: 8em;
+    height: 100%;
+    width: 100%;
+}
+
+.resume{
+    height: 90vh;
+    width: 80vw;
+}

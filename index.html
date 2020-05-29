@@ -1,169 +1,338 @@
-<!DOCTYPE HTML>
-<html>
-
 <head>
-	<title>JaysPlace</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<noscript>
-		<link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script defer src="theme.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap"
+    rel="stylesheet"
+  />
 </head>
 
-<body class="is-preload">
+<body>
+  <nav class="navbar">
+    <ul class="navbar-nav">
+      <li class="logo">
+        <a href="index.html" class="nav-link">
+          <span class="link-text logo-text">JaysPlace</span>
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fad"
+            data-icon="angle-double-right"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+            class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x"
+          >
+            <g class="fa-group">
+              <path
+                fill="currentColor"
+                d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                class="fa-secondary"
+              ></path>
+              <path
+                fill="currentColor"
+                d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                class="fa-primary"
+              ></path>
+            </g>
+          </svg>
+        </a>
+      </li>
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+      <li class="nav-item">
+        <a href="aboutme.html" class="nav-link">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="info-circle"
+            class="svg-inline--fa fa-info-circle fa-w-16"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="currentColor"
+              d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z"
+            ></path>
+          </svg>
+          <span class="link-text">About Me</span>
+        </a>
+      </li>
 
-		<!-- Header -->
-		<header id="header">
-			<div class="logo">
-				<!-- <span class="logo main"><img src="images/logo.png" alt="" /></span>
-				do i want a logo here??
-				fix the logo to make it transparent on the png -->
-			</div>
-			<div class="content">
-				<div class="inner">
-					<h1>JaysPlace</h1>
-					<p>For those who want to learn a little about me.</p>
-				</div>
-			</div>
-			<nav>
-				<ul>
-					<li><a href="#intro">Message</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#work">Work</a></li>
-					<li><a href="#resume">Resume</a></li>
-					<li><a href="#contact">Contact</a></li>
-					<!--<li><a href="#elements">Elements</a></li>-->
-				</ul>
-			</nav>
-		</header>
+      <li class="nav-item">
+        <a href="resume.html" class="nav-link">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fas"
+            data-icon="file"
+            class="svg-inline--fa fa-file fa-w-12"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 384 512"
+          >
+            <path
+              fill="currentColor"
+              d="M224 136V0H24C10.7 0 0 10.7 0 24v464c0 13.3 10.7 24 24 24h336c13.3 0 24-10.7 24-24V160H248c-13.2 0-24-10.8-24-24zm160-14.1v6.1H256V0h6.1c6.4 0 12.5 2.5 17 7l97.9 98c4.5 4.5 7 10.6 7 16.9z"
+            ></path>
+          </svg>
+          <span class="link-text">Resume</span>
+        </a>
+      </li>
 
-		<!-- Main -->
-		<div id="main">
+      <li class="nav-item">
+        <a href="projects.html" class="nav-link">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            data-icon="d-and-d"
+            class="svg-inline--fa fa-d-and-d fa-w-18"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 576 512"
+          >
+            <path
+              fill="currentColor"
+              d="M82.5 98.9c-.6-17.2 2-33.8 12.7-48.2.3 7.4 1.2 14.5 4.2 21.6 5.9-27.5 19.7-49.3 42.3-65.5-1.9 5.9-3.5 11.8-3 17.7 8.7-7.4 18.8-17.8 44.4-22.7 14.7-2.8 29.7-2 42.1 1 38.5 9.3 61 34.3 69.7 72.3 5.3 23.1.7 45-8.3 66.4-5.2 12.4-12 24.4-20.7 35.1-2-1.9-3.9-3.8-5.8-5.6-42.8-40.8-26.8-25.2-37.4-37.4-1.1-1.2-1-2.2-.1-3.6 8.3-13.5 11.8-28.2 10-44-1.1-9.8-4.3-18.9-11.3-26.2-14.5-15.3-39.2-15-53.5.6-11.4 12.5-14.1 27.4-10.9 43.6.2 1.3.4 2.7 0 3.9-3.4 13.7-4.6 27.6-2.5 41.6.1.5.1 1.1.1 1.6 0 .3-.1.5-.2 1.1-21.8-11-36-28.3-43.2-52.2-8.3 17.8-11.1 35.5-6.6 54.1-15.6-15.2-21.3-34.3-22-55.2zm469.6 123.2c-11.6-11.6-25-20.4-40.1-26.6-12.8-5.2-26-7.9-39.9-7.1-10 .6-19.6 3.1-29 6.4-2.5.9-5.1 1.6-7.7 2.2-4.9 1.2-7.3-3.1-4.7-6.8 3.2-4.6 3.4-4.2 15-12 .6-.4 1.2-.8 2.2-1.5h-2.5c-.6 0-1.2.2-1.9.3-19.3 3.3-30.7 15.5-48.9 29.6-10.4 8.1-13.8 3.8-12-.5 1.4-3.5 3.3-6.7 5.1-10 1-1.8 2.3-3.4 3.5-5.1-.2-.2-.5-.3-.7-.5-27 18.3-46.7 42.4-57.7 73.3.3.3.7.6 1 .9.3-.6.5-1.2.9-1.7 10.4-12.1 22.8-21.8 36.6-29.8 18.2-10.6 37.5-18.3 58.7-20.2 4.3-.4 8.7-.1 13.1-.1-1.8.7-3.5.9-5.3 1.1-18.5 2.4-35.5 9-51.5 18.5-30.2 17.9-54.5 42.2-75.1 70.4-.3.4-.4.9-.7 1.3 14.5 5.3 24 17.3 36.1 25.6.2-.1.3-.2.4-.4l1.2-2.7c12.2-26.9 27-52.3 46.7-74.5 16.7-18.8 38-25.3 62.5-20 5.9 1.3 11.4 4.4 17.2 6.8 2.3-1.4 5.1-3.2 8-4.7 8.4-4.3 17.4-7 26.7-9 14.7-3.1 29.5-4.9 44.5-1.3v-.5c-.5-.4-1.2-.8-1.7-1.4zM316.7 397.6c-39.4-33-22.8-19.5-42.7-35.6-.8.9 0-.2-1.9 3-11.2 19.1-25.5 35.3-44 47.6-10.3 6.8-21.5 11.8-34.1 11.8-21.6 0-38.2-9.5-49.4-27.8-12-19.5-13.3-40.7-8.2-62.6 7.8-33.8 30.1-55.2 38.6-64.3-18.7-6.2-33 1.7-46.4 13.9.8-13.9 4.3-26.2 11.8-37.3-24.3 10.6-45.9 25-64.8 43.9-.3-5.8 5.4-43.7 5.6-44.7.3-2.7-.6-5.3-3-7.4-24.2 24.7-44.5 51.8-56.1 84.6 7.4-5.9 14.9-11.4 23.6-16.2-8.3 22.3-19.6 52.8-7.8 101.1 4.6 19 11.9 36.8 24.1 52.3 2.9 3.7 6.3 6.9 9.5 10.3.2-.2.4-.3.6-.5-1.4-7-2.2-14.1-1.5-21.9 2.2 3.2 3.9 6 5.9 8.6 12.6 16 28.7 27.4 47.2 35.6 25 11.3 51.1 13.3 77.9 8.6 54.9-9.7 90.7-48.6 116-98.8 1-1.8.6-2.9-.9-4.2zm172-46.4c-9.5-3.1-22.2-4.2-28.7-2.9 9.9 4 14.1 6.6 18.8 12 12.6 14.4 10.4 34.7-5.4 45.6-11.7 8.1-24.9 10.5-38.9 9.1-1.2-.1-2.3-.4-3-.6 2.8-3.7 6-7 8.1-10.8 9.4-16.8 5.4-42.1-8.7-56.1-2.1-2.1-4.6-3.9-7-5.9-.3 1.3-.1 2.1.1 2.8 4.2 16.6-8.1 32.4-24.8 31.8-7.6-.3-13.9-3.8-19.6-8.5-19.5-16.1-39.1-32.1-58.5-48.3-5.9-4.9-12.5-8.1-20.1-8.7-4.6-.4-9.3-.6-13.9-.9-5.9-.4-8.8-2.8-10.4-8.4-.9-3.4-1.5-6.8-2.2-10.2-1.5-8.1-6.2-13-14.3-14.2-4.4-.7-8.9-1-13.3-1.5-13-1.4-19.8-7.4-22.6-20.3-5 11-1.6 22.4 7.3 29.9 4.5 3.8 9.3 7.3 13.8 11.2 4.6 3.8 7.4 8.7 7.9 14.8.4 4.7.8 9.5 1.8 14.1 2.2 10.6 8.9 18.4 17 25.1 16.5 13.7 33 27.3 49.5 41.1 17.9 15 13.9 32.8 13 56-.9 22.9 12.2 42.9 33.5 51.2 1 .4 2 .6 3.6 1.1-15.7-18.2-10.1-44.1.7-52.3.3 2.2.4 4.3.9 6.4 9.4 44.1 45.4 64.2 85 56.9 16-2.9 30.6-8.9 42.9-19.8 2-1.8 3.7-4.1 5.9-6.5-19.3 4.6-35.8.1-50.9-10.6.7-.3 1.3-.3 1.9-.3 21.3 1.8 40.6-3.4 57-17.4 19.5-16.6 26.6-42.9 17.4-66-8.3-20.1-23.6-32.3-43.8-38.9zM99.4 179.3c-5.3-9.2-13.2-15.6-22.1-21.3 13.7-.5 26.6.2 39.6 3.7-7-12.2-8.5-24.7-5-38.7 5.3 11.9 13.7 20.1 23.6 26.8 19.7 13.2 35.7 19.6 46.7 30.2 3.4 3.3 6.3 7.1 9.6 10.9-.8-2.1-1.4-4.1-2.2-6-5-10.6-13-18.6-22.6-25-1.8-1.2-2.8-2.5-3.4-4.5-3.3-12.5-3-25.1-.7-37.6 1-5.5 2.8-10.9 4.5-16.3.8-2.4 2.3-4.6 4-6.6.6 6.9 0 25.5 19.6 46 10.8 11.3 22.4 21.9 33.9 32.7 9 8.5 18.3 16.7 25.5 26.8 1.1 1.6 2.2 3.3 3.8 4.7-5-13-14.2-24.1-24.2-33.8-9.6-9.3-19.4-18.4-29.2-27.4-3.3-3-4.6-6.7-5.1-10.9-1.2-10.4 0-20.6 4.3-30.2.5-1 1.1-2 1.9-3.3.5 4.2.6 7.9 1.4 11.6 4.8 23.1 20.4 36.3 49.3 63.5 10 9.4 19.3 19.2 25.6 31.6 4.8 9.3 7.3 19 5.7 29.6-.1.6.5 1.7 1.1 2 6.2 2.6 10 6.9 9.7 14.3 7.7-2.6 12.5-8 16.4-14.5 4.2 20.2-9.1 50.3-27.2 58.7.4-4.5 5-23.4-16.5-27.7-6.8-1.3-12.8-1.3-22.9-2.1 4.7-9 10.4-20.6.5-22.4-24.9-4.6-52.8 1.9-57.8 4.6 8.2.4 16.3 1 23.5 3.3-2 6.5-4 12.7-5.8 18.9-1.9 6.5 2.1 14.6 9.3 9.6 1.2-.9 2.3-1.9 3.3-2.7-3.1 17.9-2.9 15.9-2.8 18.3.3 10.2 9.5 7.8 15.7 7.3-2.5 11.8-29.5 27.3-45.4 25.8 7-4.7 12.7-10.3 15.9-17.9-6.5.8-12.9 1.6-19.2 2.4l-.3-.9c4.7-3.4 8-7.8 10.2-13.1 8.7-21.1-3.6-38-25-39.9-9.1-.8-17.8.8-25.9 5.5 6.2-15.6 17.2-26.6 32.6-34.5-15.2-4.3-8.9-2.7-24.6-6.3 14.6-9.3 30.2-13.2 46.5-14.6-5.2-3.2-48.1-3.6-70.2 20.9 7.9 1.4 15.5 2.8 23.2 4.2-23.8 7-44 19.7-62.4 35.6 1.1-4.8 2.7-9.5 3.3-14.3.6-4.5.8-9.2.1-13.6-1.5-9.4-8.9-15.1-19.7-16.3-7.9-.9-15.6.1-23.3 1.3-.9.1-1.7.3-2.9 0 15.8-14.8 36-21.7 53.1-33.5 6-4.5 6.8-8.2 3-14.9zm128.4 26.8c3.3 16 12.6 25.5 23.8 24.3-4.6-11.3-12.1-19.5-23.8-24.3z"
+            ></path>
+          </svg>
+          <span class="link-text">Projects</span>
+        </a>
+      </li>
 
-			<!-- Intro -->
-			<article id="intro">
-				<h2 class="major">Message from Creator</h2>
-				<p>Hey there, thanks for stopping by!</p>
-				<p>I made this website in hopes of giving people a glimpse about me. The navigation was created
-					to be simple so users can see exactly what they wanted. There's not much here but I'm working on
-					getting more cool stuff out onto my website. (MUSIC COMING SOON)
-				</p>
-				<p>Also.... this might be the first time I'm seeing in 2020 vision. ;)</p>
-			</article>
+      <li class="nav-item">
+        <a href="contact.html" class="nav-link">
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="far"
+            data-icon="meh-blank"
+            class="svg-inline--fa fa-meh-blank fa-w-16"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 496 512"
+          >
+            <path
+              fill="currentColor"
+              d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm0 448c-110.3 0-200-89.7-200-200S137.7 56 248 56s200 89.7 200 200-89.7 200-200 200zm-80-280c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zm160 0c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z"
+            ></path>
+          </svg>
+          <span class="link-text">Contact Me</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
 
-			<!-- Work -->
-			<article id="work">
-				<h2 class="major">Projects</h2>
+  <svg
+    class="icon"
+    width="773"
+    height="121"
+    viewBox="0 0 773 121"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g filter="url(#filter0_d)">
+      <mask
+        id="path-1-outside-1"
+        maskUnits="userSpaceOnUse"
+        x="4"
+        y="0"
+        width="765"
+        height="113"
+        fill="black"
+      >
+        <rect fill="white" x="4" width="765" height="113" />
+        <path
+          d="M64.728 6.296V80.456C64.728 88.712 62.184 95.336 57.096 100.328C52.008 105.224 45.288 107.672 36.936 107.672C28.488 107.672 21.72 105.176 16.632 100.184C11.544 95.096 9 88.184 9 79.448H22.104C22.2 84.344 23.448 88.328 25.848 91.4C28.344 94.472 32.04 96.008 36.936 96.008C41.832 96.008 45.48 94.568 47.88 91.688C50.28 88.712 51.48 84.968 51.48 80.456V6.296H64.728Z"
+        />
+        <path
+          d="M149.871 84.344H106.095L98.0314 106.664H84.2074L120.495 6.872H135.615L153.687 56.768L171.759 106.664H157.935L149.871 84.344ZM146.127 73.688L127.983 23L109.839 73.688H146.127Z"
+        />
+        <path
+          d="M257.847 6.296L225.159 68.792V106.664H212.055V68.792L179.223 6.296H193.767L218.535 57.128L243.303 6.296H257.847Z"
+        />
+        <path
+          d="M303.492 107.672C296.868 107.672 290.916 106.52 285.636 104.216C280.452 101.816 276.372 98.552 273.396 94.424C270.42 90.2 268.884 85.352 268.788 79.88H282.756C283.236 84.584 285.156 88.568 288.516 91.832C291.972 95 296.964 96.584 303.492 96.584C309.732 96.584 314.628 95.048 318.18 91.976C321.828 88.808 323.652 84.776 323.652 79.88C323.652 76.04 322.596 72.92 320.484 70.52C318.372 68.12 315.732 66.296 312.564 65.048C309.396 63.8 305.124 62.456 299.748 61.016C293.124 59.288 287.796 57.56 283.764 55.832C279.828 54.104 276.42 51.416 273.54 47.768C270.756 44.024 269.364 39.032 269.364 32.792C269.364 27.32 270.756 22.472 273.54 18.248C276.324 14.024 280.212 10.76 285.204 8.456C290.292 6.152 296.1 5 302.628 5C312.036 5 319.716 7.352 325.668 12.056C331.716 16.76 335.124 23 335.892 30.776H321.492C321.012 26.936 318.996 23.576 315.444 20.696C311.892 17.72 307.188 16.232 301.332 16.232C295.86 16.232 291.396 17.672 287.94 20.552C284.484 23.336 282.756 27.272 282.756 32.36C282.756 36.008 283.764 38.984 285.78 41.288C287.892 43.592 290.436 45.368 293.412 46.616C296.484 47.768 300.756 49.112 306.228 50.648C312.852 52.472 318.18 54.296 322.212 56.12C326.244 57.848 329.7 60.584 332.58 64.328C335.46 67.976 336.9 72.968 336.9 79.304C336.9 84.2 335.604 88.808 333.012 93.128C330.42 97.448 326.58 100.952 321.492 103.64C316.404 106.328 310.404 107.672 303.492 107.672Z"
+        />
+        <path
+          d="M423.288 35.672C423.288 44.024 420.408 50.984 414.648 56.552C408.984 62.024 400.296 64.76 388.584 64.76H369.288V106.664H356.184V6.296H388.584C399.912 6.296 408.504 9.032 414.36 14.504C420.312 19.976 423.288 27.032 423.288 35.672ZM388.584 53.96C395.88 53.96 401.256 52.376 404.712 49.208C408.168 46.04 409.896 41.528 409.896 35.672C409.896 23.288 402.792 17.096 388.584 17.096H369.288V53.96H388.584Z"
+        />
+        <path
+          d="M452.679 96.008H487.815V106.664H439.575V6.296H452.679V96.008Z"
+        />
+        <path
+          d="M561.059 84.344H517.283L509.219 106.664H495.395L531.683 6.872H546.803L582.947 106.664H569.123L561.059 84.344ZM557.315 73.688L539.171 23L521.027 73.688H557.315Z"
+        />
+        <path
+          d="M593.866 56.408C593.866 46.616 596.074 37.832 600.49 30.056C604.906 22.184 610.906 16.04 618.49 11.624C626.17 7.208 634.666 5 643.978 5C654.922 5 664.474 7.64 672.634 12.92C680.794 18.2 686.746 25.688 690.49 35.384H674.794C672.01 29.336 667.978 24.68 662.698 21.416C657.514 18.152 651.274 16.52 643.978 16.52C636.97 16.52 630.682 18.152 625.114 21.416C619.546 24.68 615.178 29.336 612.01 35.384C608.842 41.336 607.258 48.344 607.258 56.408C607.258 64.376 608.842 71.384 612.01 77.432C615.178 83.384 619.546 87.992 625.114 91.256C630.682 94.52 636.97 96.152 643.978 96.152C651.274 96.152 657.514 94.568 662.698 91.4C667.978 88.136 672.01 83.48 674.794 77.432H690.49C686.746 87.032 680.794 94.472 672.634 99.752C664.474 104.936 654.922 107.528 643.978 107.528C634.666 107.528 626.17 105.368 618.49 101.048C610.906 96.632 604.906 90.536 600.49 82.76C596.074 74.984 593.866 66.2 593.866 56.408Z"
+        />
+        <path
+          d="M723.101 16.952V50.504H759.677V61.304H723.101V95.864H763.997V106.664H709.997V6.152H763.997V16.952H723.101Z"
+        />
+      </mask>
+      <path
+        d="M64.728 6.296V80.456C64.728 88.712 62.184 95.336 57.096 100.328C52.008 105.224 45.288 107.672 36.936 107.672C28.488 107.672 21.72 105.176 16.632 100.184C11.544 95.096 9 88.184 9 79.448H22.104C22.2 84.344 23.448 88.328 25.848 91.4C28.344 94.472 32.04 96.008 36.936 96.008C41.832 96.008 45.48 94.568 47.88 91.688C50.28 88.712 51.48 84.968 51.48 80.456V6.296H64.728Z"
+        stroke="white"
+        stroke-width="10"
+        mask="url(#path-1-outside-1)"
+      />
+      <path
+        d="M149.871 84.344H106.095L98.0314 106.664H84.2074L120.495 6.872H135.615L153.687 56.768L171.759 106.664H157.935L149.871 84.344ZM146.127 73.688L127.983 23L109.839 73.688H146.127Z"
+        stroke="white"
+        stroke-width="10"
+        mask="url(#path-1-outside-1)"
+      />
+      <path
+        d="M257.847 6.296L225.159 68.792V106.664H212.055V68.792L179.223 6.296H193.767L218.535 57.128L243.303 6.296H257.847Z"
+        stroke="white"
+        stroke-width="10"
+        mask="url(#path-1-outside-1)"
+      />
+      <path
+        d="M303.492 107.672C296.868 107.672 290.916 106.52 285.636 104.216C280.452 101.816 276.372 98.552 273.396 94.424C270.42 90.2 268.884 85.352 268.788 79.88H282.756C283.236 84.584 285.156 88.568 288.516 91.832C291.972 95 296.964 96.584 303.492 96.584C309.732 96.584 314.628 95.048 318.18 91.976C321.828 88.808 323.652 84.776 323.652 79.88C323.652 76.04 322.596 72.92 320.484 70.52C318.372 68.12 315.732 66.296 312.564 65.048C309.396 63.8 305.124 62.456 299.748 61.016C293.124 59.288 287.796 57.56 283.764 55.832C279.828 54.104 276.42 51.416 273.54 47.768C270.756 44.024 269.364 39.032 269.364 32.792C269.364 27.32 270.756 22.472 273.54 18.248C276.324 14.024 280.212 10.76 285.204 8.456C290.292 6.152 296.1 5 302.628 5C312.036 5 319.716 7.352 325.668 12.056C331.716 16.76 335.124 23 335.892 30.776H321.492C321.012 26.936 318.996 23.576 315.444 20.696C311.892 17.72 307.188 16.232 301.332 16.232C295.86 16.232 291.396 17.672 287.94 20.552C284.484 23.336 282.756 27.272 282.756 32.36C282.756 36.008 283.764 38.984 285.78 41.288C287.892 43.592 290.436 45.368 293.412 46.616C296.484 47.768 300.756 49.112 306.228 50.648C312.852 52.472 318.18 54.296 322.212 56.12C326.244 57.848 329.7 60.584 332.58 64.328C335.46 67.976 336.9 72.968 336.9 79.304C336.9 84.2 335.604 88.808 333.012 93.128C330.42 97.448 326.58 100.952 321.492 103.64C316.404 106.328 310.404 107.672 303.492 107.672Z"
+        stroke="white"
+        stroke-width="10"
+        mask="url(#path-1-outside-1)"
+      />
+      <path
+        d="M423.288 35.672C423.288 44.024 420.408 50.984 414.648 56.552C408.984 62.024 400.296 64.76 388.584 64.76H369.288V106.664H356.184V6.296H388.584C399.912 6.296 408.504 9.032 414.36 14.504C420.312 19.976 423.288 27.032 423.288 35.672ZM388.584 53.96C395.88 53.96 401.256 52.376 404.712 49.208C408.168 46.04 409.896 41.528 409.896 35.672C409.896 23.288 402.792 17.096 388.584 17.096H369.288V53.96H388.584Z"
+        stroke="white"
+        stroke-width="10"
+        mask="url(#path-1-outside-1)"
+      />
+      <path
+        d="M452.679 96.008H487.815V106.664H439.575V6.296H452.679V96.008Z"
+        stroke="white"
+        stroke-width="10"
+        mask="url(#path-1-outside-1)"
+      />
+      <path
+        d="M561.059 84.344H517.283L509.219 106.664H495.395L531.683 6.872H546.803L582.947 106.664H569.123L561.059 84.344ZM557.315 73.688L539.171 23L521.027 73.688H557.315Z"
+        stroke="white"
+        stroke-width="10"
+        mask="url(#path-1-outside-1)"
+      />
+      <path
+        d="M593.866 56.408C593.866 46.616 596.074 37.832 600.49 30.056C604.906 22.184 610.906 16.04 618.49 11.624C626.17 7.208 634.666 5 643.978 5C654.922 5 664.474 7.64 672.634 12.92C680.794 18.2 686.746 25.688 690.49 35.384H674.794C672.01 29.336 667.978 24.68 662.698 21.416C657.514 18.152 651.274 16.52 643.978 16.52C636.97 16.52 630.682 18.152 625.114 21.416C619.546 24.68 615.178 29.336 612.01 35.384C608.842 41.336 607.258 48.344 607.258 56.408C607.258 64.376 608.842 71.384 612.01 77.432C615.178 83.384 619.546 87.992 625.114 91.256C630.682 94.52 636.97 96.152 643.978 96.152C651.274 96.152 657.514 94.568 662.698 91.4C667.978 88.136 672.01 83.48 674.794 77.432H690.49C686.746 87.032 680.794 94.472 672.634 99.752C664.474 104.936 654.922 107.528 643.978 107.528C634.666 107.528 626.17 105.368 618.49 101.048C610.906 96.632 604.906 90.536 600.49 82.76C596.074 74.984 593.866 66.2 593.866 56.408Z"
+        stroke="white"
+        stroke-width="10"
+        mask="url(#path-1-outside-1)"
+      />
+      <path
+        d="M723.101 16.952V50.504H759.677V61.304H723.101V95.864H763.997V106.664H709.997V6.152H763.997V16.952H723.101Z"
+        stroke="white"
+        stroke-width="10"
+        mask="url(#path-1-outside-1)"
+      />
+    </g>
+    <defs>
+      <filter
+        id="filter0_d"
+        x="0"
+        y="0"
+        width="772.997"
+        height="120.672"
+        filterUnits="userSpaceOnUse"
+        color-interpolation-filters="sRGB"
+      >
+        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+        <feColorMatrix
+          in="SourceAlpha"
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+        />
+        <feOffset dy="4" />
+        <feGaussianBlur stdDeviation="2" />
+        <feColorMatrix
+          type="matrix"
+          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"
+        />
+        <feBlend
+          mode="normal"
+          in2="BackgroundImageFix"
+          result="effect1_dropShadow"
+        />
+        <feBlend
+          mode="normal"
+          in="SourceGraphic"
+          in2="effect1_dropShadow"
+          result="shape"
+        />
+      </filter>
+    </defs>
+  </svg>
 
-				<h3>Flappy Bird</h3>
-				<p>Flappy Bird was an extremely popular game that broke the game charts, hitting #1 on the App Store before being removed by the creator.
-					I decided to learn how to recreate this game as a coding challenge. Below you will find a demo and a tutorial on how to build it yourself :)
-				</p>
-				<span class="image-group">
-				<img src = "images/fb01.PNG" style="width: 230px; height: 500; padding: 20px; position: relative; float: center;" />
-				<img src = "images/fb02.PNG" style="width: 230px; height: 500; padding: 20px; position: relative; float: center;" />
-				<img src = "images/fb03.PNG" style="width: 230px; height: 500; padding: 20px; position: relative; float: center;" />
-				</span>
+  <main>
+    <div class="banner-text">
+      <div class="social-links">
+        <a
+          href="https://www.linkedin.com/in/jason-eng-97180a19a/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            data-icon="linkedin"
+            class="svg-inline--fa fa-linkedin fa-w-14"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              fill="currentColor"
+              d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+            ></path>
+          </svg>
+        </a>
+        <a
+          href="https://www.instagram.com/yutorisaber/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            data-icon="instagram"
+            class="svg-inline--fa fa-instagram fa-w-14"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 448 512"
+          >
+            <path
+              fill="currentColor"
+              d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+            ></path>
+          </svg>
+        </a>
 
-
-
-				<h2 class="major"> Concept Projects </h2>
-
-				<h3>Snap Notes</h3>
-				<p>Snap Notes is a productivity tool for students that take notes from online documents such as pdfs and slides.
-					The main goal of snap notes is to alleviate the extra time spent when note taking, you can simply highlight any section of notes
-					you feel is relevant for you to know and Snap Notes will automatically create a document with all of your highlights.
-
-					<p>Below is a video introducing Snap Notes</p>	
-
-				<h3>LeaseIT</h3>
-				<p>LeaseIT is where all your leasing questions can be answered.
-					Features consistently updated reviews from students that have lived in the place.
-					up-to-date photo, pricing, and availbility.
-
-					
-				</p>
-			</article>
-
-			<!-- About -->
-			<article id="about">
-				<h2 class="major">About</h2>
-				<div style="clear: both; display: inline-block;">
-				<h3 style="font-size: 95px; position: absolute; left: 20px; top: 210px;">I'm</h3>
-				<ul style= "list-style: none; position: relative; left: 80px;">
-					<li>Jason, a 3B Computational Math student studying at the University of Waterloo</li>
-					<li>from Saskatoon, Saskatchewan. </li>
-					<li>interested in app development; it has been the most fun working with apps. </li>
-					<li>a badminton player, a producer, a (pretty bad) DJ, and a gamer. </li>
-					<li>in love with music and love having jam sessions with friends and coworkers. </li>
-
-				</ul>
-				</div>
-
-				<span class="image main"><img src="images/pic02.jpg" alt="Photo of Jason Eng" style="width: 600px; height: 780px; position: relative; left: 70px;"/></span>
-			</article>
-
-			<!-- Resume -->
-			<article id="resume">
-				<h2 class="major">Resume</h2>
-				<p>A resume of my current qualifications for software and related.</p>
-				<span class="image main"><img src="images/resume.jpg" alt="" /></span>
-			</article>
-
-
-			<!-- Contact -->
-			<article id="contact">
-				<h2 class="major">Contact (UNCOMPLETED)</h2>
-				<form method="post" action="#">
-					<div class="fields">
-						<div class="field half">
-							<label for="name">Name</label>
-							<input type="text" name="name" id="name" />
-						</div>
-						<div class="field half">
-							<label for="email">Email</label>
-							<input type="text" name="email" id="email" />
-						</div>
-						<div class="field">
-							<label for="message">Message</label>
-							<textarea name="message" id="message" rows="4"></textarea>
-						</div>
-					</div>
-					<ul class="actions">
-						<li><input type="submit" value="Send Message" class="primary" /></li>
-						<li><input type="reset" value="Reset" /></li>
-					</ul>
-				</form>
-				<ul class="icons">
-					<li><a href="https://www.linkedin.com/in/jason-eng-97180a19a/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="https://github.com/JaysPlace" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-					<li><a href="https://www.instagram.com/yutorisaber/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-				</ul>
-			</article>
-
-
-		</div>
-
-		<!-- Footer -->
-		<footer id="footer">
-			<p class="copyright">&copy; Jason Eng, 2019, <a href="http://jaysplace.github.io"> JaysPlace</a>.</p>
-		</footer>
-
-	</div>
-
-	<!-- BG -->
-	<div id="bg"></div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
-
+        <a
+          href="https://www.twitch.tv/therealjheng"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <svg
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fab"
+            data-icon="twitch"
+            class="svg-inline--fa fa-twitch fa-w-16"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+          >
+            <path
+              fill="currentColor"
+              d="M391.17,103.47H352.54v109.7h38.63ZM285,103H246.37V212.75H285ZM120.83,0,24.31,91.42V420.58H140.14V512l96.53-91.42h77.25L487.69,256V0ZM449.07,237.75l-77.22,73.12H294.61l-67.6,64v-64H140.14V36.58H449.07Z"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </main>
 </body>
-
-</html>
